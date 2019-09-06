@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Livvic:400,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Learn "This" in JS</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <button onclick="toggleContent()">Syntax</button>
+        <div id="content">
+          <code>
+            var apple = { prop: "red", color: function() { return this.prop; },
+            }; console.log(apple.color()); // Expected Output: "red"
+          </code>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
