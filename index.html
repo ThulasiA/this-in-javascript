@@ -22,6 +22,16 @@
           </code>
         </div>
       </div>
+      <div>
+        <button onclick="toggleGlobalContent()">Global Context</button>
+        <div id="globalContent">
+          <code>
+            this.b = "Apple"; console.log(window.b) //Expected output: "Apple" -
+            Outside of any function, this refers to the global object and window
+            is global object
+          </code>
+        </div>
+      </div>
     </div>
     <script src="index.js"></script>
   </body>

@@ -36,7 +36,14 @@ code {
   font-size: 2rem;
 }
 
-#content {
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#content,
+#globalContent {
   background-color: #eee;
   display: none;
   height: 200px;
