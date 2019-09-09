@@ -12,3 +12,10 @@ const toggleGlobalContent = () => {
     ? (getGlobalContent.style.display = "block")
     : (getGlobalContent.style.display = "none");
 };
+
+const toggleFuncContent = () => {
+  let getFuncContent = document.getElementById("funcContent");
+  getFuncContent.style.display === "none"
+    ? (getFuncContent.style.display = "block")
+    : (getFuncContent.style.display = "none");
+};

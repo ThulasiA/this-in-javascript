@@ -43,7 +43,8 @@ code {
 }
 
 #content,
-#globalContent {
+#globalContent,
+#funcContent {
   background-color: #eee;
   display: none;
   height: 200px;

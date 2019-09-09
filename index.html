@@ -32,6 +32,18 @@
           </code>
         </div>
       </div>
+      <div>
+        <button onclick="toggleFuncContent()">Function Context</button>
+        <div id="funcContent">
+          <code>
+            function apple() { return this; } apple() === window; //true
+            function orange() { 'use strict'; return this; } // this should be
+            undefined, because orange() is called directly and not as a method
+            or property of an object (e.g. window.orange()) orange() ===
+            undefined; //true
+          </code>
+        </div>
+      </div>
     </div>
     <script src="index.js"></script>
   </body>
