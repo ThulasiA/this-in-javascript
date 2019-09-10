@@ -16,32 +16,42 @@
       <div>
         <button id="btn-syntax">Syntax</button>
         <div class="content-box">
-          <code>
-            var apple = { prop: "red", color: function() { return this.prop; },
-            }; console.log(apple.color()); // Expected Output: "red"
-          </code>
+          <pre>
+            var apple = 
+              { prop: "red", 
+                color: 
+                function() { return this.prop; }
+              }; 
+              console.log(apple.color()); 
+              <strong>// Expected Output: "red"</strong>
+          </pre>
         </div>
       </div>
       <div>
         <button id="btn-global">Global Context</button>
         <div class="content-box">
-          <code>
-            this.b = "Apple"; console.log(window.b) //Expected output: "Apple" -
-            Outside of any function, this refers to the global object and window
-            is global object
-          </code>
+          <pre>
+              this.b = "Apple"; 
+              console.log(window.b);
+              //Expected output: "Apple" 
+              <strong> Outside of any function, 
+              this refers to the global object 
+              and window is global object </strong>
+          </pre>
         </div>
       </div>
       <div>
         <button id="btn-function">Function Context</button>
         <div class="content-box">
-          <code>
-            function apple() { return this; } apple() === window; //true
-            function orange() { 'use strict'; return this; } // this should be
-            undefined, because orange() is called directly and not as a method
-            or property of an object (e.g. window.orange()) orange() ===
-            undefined; //true
-          </code>
+          <pre>
+            function apple() { return this; } 
+            apple() === window; //true
+            function orange() { 'use strict'; return this; } 
+            orange() === undefined; //true
+            <strong>// this should be undefined, because orange() is 
+            called directly and not as a method or property of 
+            an object (e.g. window.orange())</strong>
+          </pre>
         </div>
       </div>
     </div>
