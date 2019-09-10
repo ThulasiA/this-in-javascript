@@ -16,13 +16,12 @@ body {
 }
 
 button {
-  background: linear-gradient(#e46f8a 65%, #460e42);
+  background: linear-gradient(#e46f8a 80%, #460e42);
   border: none;
   border-radius: 3px;
   font-family: "Livvic", sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
-  outline: none;
   padding: 1rem;
 }
 
