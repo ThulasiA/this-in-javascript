@@ -19,9 +19,11 @@ button {
   background: linear-gradient(#e46f8a, #8f3880);
   border: none;
   border-radius: 3px;
+  color: #f9f3f3;
   font-family: "Livvic", sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
+  letter-spacing: 0.2rem;
   padding: 1rem;
 }
 
