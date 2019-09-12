@@ -16,7 +16,7 @@ body {
 }
 
 button {
-  background: linear-gradient(#e46f8a 80%, #460e42);
+  background: linear-gradient(#e46f8a, #8f3880);
   border: none;
   border-radius: 3px;
   font-family: "Livvic", sans-serif;
@@ -37,9 +37,10 @@ button {
   opacity: 1;
 }
 
-button:focus {
+/* Removing this prop because not helpful for accessibility
+ button:focus {
   outline: none;
-}
+} */
 
 pre {
   background-color: rgb(248, 225, 232);
