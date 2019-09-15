@@ -49,6 +49,7 @@ pre {
   border-radius: 3px;
   font-size: 2rem;
   white-space: pre-line;
+  line-height: 2em;
 }
 
 .container {
