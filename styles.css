@@ -16,7 +16,7 @@ body {
 }
 
 button {
-  background: linear-gradient(#e46f8a, #8f3880);
+  background: linear-gradient(to right, #e46f8a, #8f3880);
   border: none;
   border-radius: 3px;
   color: #f9f3f3;
