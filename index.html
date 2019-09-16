@@ -54,6 +54,23 @@
           </pre>
         </div>
       </div>
+      <div>
+        <button id="btn-bind">Bind Method</button>
+        <div class="content-box">
+          <pre>
+            function fruit() {
+              return this.apple;
+            }
+
+            var color = fruit.bind({ apple: "red"})
+            console.log(color());  //  red
+
+            <strong>// fruit.bind(obj) creates a new function with the same body and scope as fruit. 
+              In the new function, this is permanently bound to the first argument of bind.
+            </strong>
+          </pre>
+        </div>
+      </div>
     </div>
     <!-- <script src="index.js"></script> -->
   </body>

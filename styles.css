@@ -29,13 +29,15 @@ button {
 
 #btn-syntax + div,
 #btn-global + div,
-#btn-function + div {
+#btn-function + div,
+#btn-bind + div {
   transition: all 0.5s ease-in;
 }
 
 #btn-syntax:hover + div,
 #btn-global:hover + div,
-#btn-function:hover + div {
+#btn-function:hover + div,
+#btn-bind:hover + div {
   opacity: 1;
 }
 
